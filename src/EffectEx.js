@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const Counter = () => {
+const EffectEx = () => {
     const [name, setName] = useState('');
     const [nickname, setNickname] = useState('');
 
@@ -25,4 +25,4 @@ const Counter = () => {
   );
 }
 
-export default Counter;
+export default EffectEx;
